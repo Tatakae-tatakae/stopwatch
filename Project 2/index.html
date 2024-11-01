@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Stopwatch</title>
+    <style>
+        .stopwatch {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .buttons button {
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <div id="stopwatchContainer">
+        <div class="stopwatch">
+            <h1>Stopwatch</h1>
+            
+            <div class="time" id="display">
+                00:00:00
+            </div>
+            
+            <div class="buttons" id="buttonGroup">
+                <button id="start" style="background-color: blue; color: white;">Start</button>
+                <button id="stop" style="background-color: orange; color: white;">Stop</button>
+                <button id="reset" style="background-color: white; color: black;">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js_stop.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+h1 {
+    color: coral;
+}
+
+.time {
+    font-size: 2em;
+    margin: 20px 0;
+    color: dodgerblue;
+}
+
+.buttons button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+#start {
+    background-color: dodgerblue;
+}
+
+#stop {
+    background-color: orangered;
+}
+
+#reset {
+    background-color: lightgray;
+    color: black;
+}
